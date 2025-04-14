@@ -7,7 +7,7 @@ session_start(); // Start session for user authentication
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Collaboration Platform</title>
+    <title>Campus IdeaForge</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <style>
@@ -101,8 +101,8 @@ session_start(); // Start session for user authentication
             <div class="carousel-item active" style="background-image:url('image1.png');">
                 <div class="carousel-overlay">
                     <div class="carousel-text">
-                        <h1>🚀 Empowering Students & Innovators</h1>
-                        <p class="lead">Collaborate with experts, build amazing projects, and shape the future. 🌍</p>
+                        <h1> Empowering Students & Innovators</h1>
+                        <p class="lead">Collaborate with experts, build amazing projects, and shape the future. </p>
                         <a href="pages/projects.php" class="btn btn-primary btn-lg">Get Started</a>
                     </div>
                 </div>
@@ -110,8 +110,8 @@ session_start(); // Start session for user authentication
             <div class="carousel-item" style="background-image:url('img2.png');">
                 <div class="carousel-overlay">
                     <div class="carousel-text">
-                        <h1>💡 Innovate & Learn</h1>
-                        <p class="lead">Join forces with tech enthusiasts and create impactful solutions. 💻</p>
+                        <h1> Innovate & Learn</h1>
+                        <p class="lead">Join forces with tech enthusiasts and create impactful solutions. </p>
                         <a href="pages/projects.php" class="btn btn-success btn-lg">Explore Projects</a>
                     </div>
                 </div>
@@ -119,8 +119,8 @@ session_start(); // Start session for user authentication
             <div class="carousel-item" style="background-image: url('img3.png');">
                 <div class="carousel-overlay">
                     <div class="carousel-text">
-                        <h1>📚 Share Knowledge</h1>
-                        <p class="lead">Find mentors, grow your skills, and contribute to the community. 🤝</p>
+                        <h1> Share Knowledge</h1>
+                        <p class="lead">Find mentors, grow your skills, and contribute to the community. </p>
                         <a href="auth.php?type=signup" class="btn btn-warning btn-lg text-dark">Join Now</a>
                     </div>
                 </div>

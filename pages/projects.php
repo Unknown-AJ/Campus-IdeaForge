@@ -113,13 +113,13 @@
 
 <!-- Sidebar -->
 <div class="sidebar" id="sidebar">
-    <h3>📌 Menu</h3>
+    <h3> Menu</h3>
     <ul>
-        <li><a href="#">🏠 Home</a></li>
-        <li><a href="#">🚀 Explore Projects</a></li>
-        <li><a href="#">👥 Team</a></li>
-        <li><a href="#">❓ FAQs</a></li>
-        <li><a href="#">📧 Contact</a></li>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#"> Explore Projects</a></li>
+        <li><a href="#"> Team</a></li>
+        <li><a href="#"> FAQs</a></li>
+        <li><a href="#"> Contact</a></li>
     </ul>
 </div>
 
@@ -143,22 +143,22 @@
 <!-- Page Content -->
 <div class="container-content" id="content">
     <div class="container text-center">
-        <h2 class="mb-4">🚀 Explore Student Projects</h2>
+        <h2 class="mb-4"> Explore Student Projects</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <?php
             $projects = [
-                ["title" => "AI Chatbot 🤖", "desc" => "An AI-based chatbot for student support.", "tech" => "Python, NLP"],
-                ["title" => "Smart Health Monitoring ❤️", "desc" => "Predicting diseases based on symptoms.", "tech" => "ML, Django"],
-                ["title" => "E-Learning Platform 📚", "desc" => "Web-based learning system.", "tech" => "React, Node.js"],
-                ["title" => "Smart Attendance 🎭", "desc" => "Facial recognition for attendance.", "tech" => "OpenCV, Python"],
-                ["title" => "Online Exam Portal 📜", "desc" => "Conduct online exams securely.", "tech" => "PHP, MySQL"],
-                ["title" => "Tourist Guide App 🏝️", "desc" => "AI-powered travel assistant.", "tech" => "Android, Firebase"],
-                ["title" => "Stock Prediction 📈", "desc" => "Predict stocks using AI.", "tech" => "TensorFlow, Python"],
-                ["title" => "E-Commerce Platform 🛒", "desc" => "A marketplace for online sales.", "tech" => "MERN Stack"],
-                ["title" => "IoT Smart Home 🏠", "desc" => "Automated home control.", "tech" => "Arduino, IoT"],
-                ["title" => "Food Delivery App 🍕", "desc" => "Online food ordering system.", "tech" => "Flutter, Firebase"],
-                ["title" => "Cybersecurity Analyzer 🔐", "desc" => "Detect security vulnerabilities.", "tech" => "Kali Linux, Python"],
-                ["title" => "Chat Application 💬", "desc" => "Real-time messaging app.", "tech" => "Node.js, WebSocket"],
+                ["title" => "AI Chatbot ", "desc" => "An AI-based chatbot for student support.", "tech" => "Python, NLP"],
+                ["title" => "Smart Health Monitoring ", "desc" => "Predicting diseases based on symptoms.", "tech" => "ML, Django"],
+                ["title" => "E-Learning Platform ", "desc" => "Web-based learning system.", "tech" => "React, Node.js"],
+                ["title" => "Smart Attendance ", "desc" => "Facial recognition for attendance.", "tech" => "OpenCV, Python"],
+                ["title" => "Online Exam Portal ", "desc" => "Conduct online exams securely.", "tech" => "PHP, MySQL"],
+                ["title" => "Tourist Guide App ", "desc" => "AI-powered travel assistant.", "tech" => "Android, Firebase"],
+                ["title" => "Stock Prediction ", "desc" => "Predict stocks using AI.", "tech" => "TensorFlow, Python"],
+                ["title" => "E-Commerce Platform ", "desc" => "A marketplace for online sales.", "tech" => "MERN Stack"],
+                ["title" => "IoT Smart Home ", "desc" => "Automated home control.", "tech" => "Arduino, IoT"],
+                ["title" => "Food Delivery App ", "desc" => "Online food ordering system.", "tech" => "Flutter, Firebase"],
+                ["title" => "Cybersecurity Analyzer ", "desc" => "Detect security vulnerabilities.", "tech" => "Kali Linux, Python"],
+                ["title" => "Chat Application ", "desc" => "Real-time messaging app.", "tech" => "Node.js, WebSocket"],
             ];
 
             foreach ($projects as $project) {
@@ -168,7 +168,7 @@
                         <h5 class='fw-bold'>{$project['title']}</h5>
                         <p>{$project['desc']}</p>
                         <span class='badge bg-primary'>{$project['tech']}</span>
-                        <a href='#' class='btn btn-success mt-2'>🔍 View Project</a>
+                        <a href='#' class='btn btn-success mt-2'> View Project</a>
                     </div>
                 </div>";
             }
